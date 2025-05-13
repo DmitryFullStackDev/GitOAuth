@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/authenticate/:code",
+      "destination": "/authenticate/:code"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    },
+  ]
+}
