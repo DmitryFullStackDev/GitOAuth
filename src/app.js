@@ -7,7 +7,7 @@ const corsOptions = {
     origin: process.env.CORS_ORIGIN,
 };
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use('/', router)
 
 module.exports = app
